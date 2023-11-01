@@ -19,7 +19,7 @@ public interface GrobidPaths {
 	 * path extension for is alive request.
 	 */
 	String PATH_IS_ALIVE = "isalive";
-
+	
 	/**
 	 * path extension for grobid admin pages.
 	 */
@@ -39,6 +39,8 @@ public interface GrobidPaths {
 	 * path extension for processing full text of documents.
 	 */
 	String PATH_FULL_TEXT = "processFulltextDocument";
+	
+	String PATH_RAW_TEXT = "processRawText";
 
 	/**
 	 * path extension for processing full text of documents together with image extraction.
